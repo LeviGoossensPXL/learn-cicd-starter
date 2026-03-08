@@ -10,7 +10,6 @@ jobs:
 
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      authToken: ${{ secrets.authToken }}
 
     steps:
       - name: Check out code
